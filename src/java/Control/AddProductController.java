@@ -52,6 +52,8 @@ public class AddProductController extends HttpServlet {
         dao.insertProduct(name, description, price, memory, image,quantity, category, user_id);
         response.sendRedirect("ManagerProductURL");
         
+        System.out.println("");
+        
     } 
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
